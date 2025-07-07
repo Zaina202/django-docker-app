@@ -12,7 +12,7 @@ COPY .  /app
 
 #Make sure that /app is the working directory
 WORKDIR  /app                    
-
+ 
 #Upgrade python package installer
 RUN pip install --upgrade pip                 
 
